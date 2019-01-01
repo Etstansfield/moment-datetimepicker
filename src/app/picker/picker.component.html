@@ -1,0 +1,5 @@
+<div class="month-container">
+  <button class="day-container" *ngFor='let day of currentMonth' (click)='test()'>
+    {{day.format('DD')}}
+  </button>
+</div>
